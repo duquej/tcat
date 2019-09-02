@@ -28,7 +28,7 @@ def build_response(message, session_attributes={}):
     response['response'] = message
     return response
 
-"""Creates a card that will be used to assemble the utterance """"
+"""Creates a card that will be used to assemble the utterance """
 def build_SimpleCard(title, body):
     card = {}
     card['type'] = 'Simple'
