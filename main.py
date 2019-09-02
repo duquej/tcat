@@ -98,7 +98,7 @@ def on_launch(event, context):
 
 # Routing
 
-"""Retrieves the intent that the user requested """"
+"""Retrieves the intent that the user requested """
 def intent_router(event, context):
     intent = event['request']['intent']['name']
 
@@ -121,7 +121,7 @@ def intent_router(event, context):
         return stop_intent()
 
 
-"""Program Entry, filters the users requested action """"
+"""Program Entry, filters the users requested action """
 def lambda_handler(event, context):
     if event['request']['type'] == "LaunchRequest":
         return on_launch(event, context)
