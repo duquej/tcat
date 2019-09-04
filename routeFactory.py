@@ -8,7 +8,7 @@ Author: Jonathan Duque
 Date: 4/6/19
 """
     
-"""Contacts Google Maps API to generate a valid json response given a origin and a destination.
+"""Utilizes Google Maps API to retrieve all possible bus routes from the origin point to the destination point.
 Returns the data generated in json format.
 Precondition: org must be a string, dest must be a string
 """
